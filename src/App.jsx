@@ -1,12 +1,23 @@
 // import ParentComponent from "./component/ParentComponent";
 
-import UseMemo from "./useMemo/UseMemoHook";
+import CustomHook1 from "./CoustomHook/CustomHook1";
+
+// import DocumeHook from "./UseRefHook/DocumeHook";
+
+// import HookTimer from "./UseRefHook/HookTimer";
+// import UseRefHook from "./UseRefHook/UseRefHook";
+
+// import UseMemo from "./useMemo/UseMemoHook";
 
 const App = () => {
   return (
     <div>
       {/* <ParentComponent/> */}
-      <UseMemo/>
+      {/* <UseMemo/> */}
+      {/* <UseRefHook/> */}
+      {/* <HookTimer/> */}
+      {/* <DocumeHook/> */}
+      <CustomHook1/>
     </div>
   );
 };
