@@ -1,3 +1,4 @@
+import React from "react";
 /* eslint-disable react/prop-types */
 const Button = ({handleClick,children}) => {
     console.log(`rendering button - ${handleClick}`)
@@ -8,4 +9,4 @@ const Button = ({handleClick,children}) => {
     );
 };
 
-export default Button;
+export default React.memo(Button);

@@ -1,3 +1,4 @@
+import React from "react";
 
 // eslint-disable-next-line react/prop-types
 const Count = ({text,count}) => {
@@ -9,4 +10,4 @@ const Count = ({text,count}) => {
     );
 };
 
-export default Count;
+export default React.memo(Count);
