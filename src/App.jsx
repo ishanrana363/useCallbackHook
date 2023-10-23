@@ -1,9 +1,12 @@
-import ParentComponent from "./component/ParentComponent";
+// import ParentComponent from "./component/ParentComponent";
+
+import UseMemo from "./useMemo/UseMemoHook";
 
 const App = () => {
   return (
     <div>
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+      <UseMemo/>
     </div>
   );
 };
